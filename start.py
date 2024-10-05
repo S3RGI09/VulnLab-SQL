@@ -103,6 +103,9 @@ def main():
     print(f"Desplegando servidor web con {web_server} y base de datos {db_type}...")
     print(f"La aplicación está disponible en: http://localhost:{puerto}")
     
+    with open('flask_pid.txt', 'w') as f:
+        f.write(str(os.getpid()))
+    
     app.run(debug=True, port=puerto)
 
 if __name__ == "__main__":
