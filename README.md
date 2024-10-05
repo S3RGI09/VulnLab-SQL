@@ -1,4 +1,4 @@
-# VulnLab SQL - By S3RGI09
+# VulnLab SQL
 
 VulnLab SQL es un entorno de práctica diseñado para experimentar con inyecciones SQL utilizando Flask y SQLite. Este proyecto permite a los usuarios configurar un servidor web y una base de datos para practicar vulnerabilidades de inyección SQL en un entorno controlado.
 
